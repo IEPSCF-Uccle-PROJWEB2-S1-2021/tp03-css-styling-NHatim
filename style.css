@@ -43,3 +43,116 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+
+}
+
+h1, h2{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+header{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+body{
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+h2 + p{
+  text-indent: 20px;
+}
+/*section p:nth-child(2){
+  text-indent: 20px;
+}
+
+section p:nth-child(5){
+  text-indent: 20px;
+}*/
+
+a:link{
+  color:rgb(172, 67, 163);
+  text-decoration: underline;
+}
+
+a:hover{
+  color:rgb(231, 124, 226);
+  text-decoration : none;
+}
+
+a:visited{
+  color:rgb(190, 28, 155);
+  text-decoration: underline;
+}
+
+a:focus{
+  color:rgb(165, 48, 83);
+  text-decoration : none;
+  outline: none;
+}
+
+a:active{
+  color:rgb(248, 29, 150);
+}
+
+a[href^="https://"]:after {
+  display: inline-block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    background: url("external-link-52.png") no-repeat 0 0;
+    background-size: 100%;
+    margin-left: 2px;
+}
+
+nav ul li a:link{
+  text-decoration: none;
+}
+
+nav ul li{
+  display:block;
+    font-size: 1.5em;
+    width:170px;
+    height:70px;
+    border:1px solid rgb(170, 102, 102);
+    margin-right: 75px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 2px;
+}
+
+section ul li{
+  list-style: none;
+}
+
+section ul li::before{
+  content: "🌌";
+  padding-right: 1em;
+  display: inline-block; width: 0.5em;
+
+}
+
+aside ul li{
+  list-style: none;
+}
+
+
+aside ul li::before {
+  list-style: none;
+  content: "🧊";
+  padding-right: 1em;
+  display: inline-block; width: 0.5em;
+
+  ;
+}
+
+
